@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "extravagantdelight:block/quince_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "extravagantdelight:block/quince_log"
+    },
+    "axis=z": {
+      "model": "extravagantdelight:block/quince_log_horizontal",
+      "x": 90
+    }
+  }
+}

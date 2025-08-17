@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "extravagantdelight:block/starfruit_crop_stage0_upper"
+  }
+}

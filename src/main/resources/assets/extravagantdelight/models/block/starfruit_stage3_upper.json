@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "extravagantdelight:block/starfruit_leaves",
+    "side": "extravagantdelight:block/starfruit_leaves_flowering_side",
+    "top": "extravagantdelight:block/starfruit_leaves_flowering"
+  }
+}

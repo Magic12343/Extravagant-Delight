@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "extravagantdelight:block/wild_quince_bottom"
+    },
+    "half=upper": {
+      "model": "extravagantdelight:block/wild_quince_top"
+    }
+  }
+}

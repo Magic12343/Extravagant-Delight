@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "extravagantdelight:block/starfruit_stage2_lower"
+  }
+}

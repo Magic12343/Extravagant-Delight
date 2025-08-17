@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+    "render_type": "minecraft:cutout",
+	"texture_size": [29, 39],
+	"textures": {
+		"0": "extravagantdelight:block/wild_quince_tree",
+		"1": "extravagantdelight:block/wild_quince_tree_mirror",
+		"particle": "extravagantdelight:block/wild_quince_tree"
+	},
+	"elements": [
+		{
+			"from": [-7.03934, 0, 7.76777],
+			"to": [23.96066, 22, 7.76777],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.46066, 8, 7.76777]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 9.4359], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 9.4359], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.96066, 0, -8.03223],
+			"to": [7.96066, 22, 22.96777],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.96066, 8, 7.46777]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 9.4359], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 9.4359], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	]
+}
