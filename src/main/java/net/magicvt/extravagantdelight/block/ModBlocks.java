@@ -10,9 +10,12 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.block.PieBlock;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
 import java.util.function.Supplier;
+
+import static net.magicvt.extravagantdelight.item.ModItems.ITEMS;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -85,6 +88,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> SLOE_BERRIES_CRATE = registerBlock("sloe_berries_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> STARFRUIT_CHEESECAKE = BLOCKS.register("starfruit_cheesecake",
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.STARFRUIT_CHEESECAKE_SLICE));
+
+    //BlockItems
+    public static final RegistryObject<Item> STARFRUIT_CHEESECAKE_ITEM = ITEMS.register("starfruit_cheesecake",
+            () -> new BlockItem(ModBlocks.STARFRUIT_CHEESECAKE.get(), new Item.Properties()));
 
 
 
@@ -95,7 +104,7 @@ public class ModBlocks {
     }
 
     private static RegistryObject<Item> registerBlockItem(String name, RegistryObject<? extends Block> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {

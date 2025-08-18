@@ -39,6 +39,14 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_CRATE.get().asItem()));
                         pOutput.accept(new ItemStack(ModBlocks.SLOE_BERRIES_CRATE.get().asItem()));
 
+                        pOutput.accept(ModItems.STARFRUIT_JAM.get());
+                        pOutput.accept(ModItems.STARFRUIT_JUICE.get());
+                        pOutput.accept(ModItems.STARFRUIT_POPSICLE.get());
+                        pOutput.accept(ModItems.STARFRUIT_MUFFIN.get());
+                        pOutput.accept(ModItems.STARFRUIT_SALAD.get());
+                        pOutput.accept(ModItems.STARFRUIT_SALMON.get());
+                        pOutput.accept(new ItemStack(ModBlocks.STARFRUIT_CHEESECAKE.get().asItem()));
+                        pOutput.accept(ModItems.STARFRUIT_CHEESECAKE_SLICE.get());
                     })
                     .build());
 

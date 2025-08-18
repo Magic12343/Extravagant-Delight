@@ -20,5 +20,6 @@ public class ClientSetup {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SLOE_BERRIES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WILD_STARFRUIT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WILD_QUINCE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STARFRUIT_CHEESECAKE.get(), RenderType.cutout());
     }
 }

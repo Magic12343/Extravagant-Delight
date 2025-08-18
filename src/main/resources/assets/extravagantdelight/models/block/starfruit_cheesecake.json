@@ -1,0 +1,9 @@
+{
+  "parent": "farmersdelight:block/pie",
+  "textures": {
+    "particle": "extravagantdelight:block/starfruit_cheesecake_top",
+    "bottom": "extravagantdelight:block/starfruit_cheesecake_bottom",
+    "side": "extravagantdelight:block/starfruit_cheesecake_side",
+    "top": "extravagantdelight:block/starfruit_cheesecake_top"
+  }
+}
