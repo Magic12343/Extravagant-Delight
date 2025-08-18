@@ -81,6 +81,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> QUINCE_CRATE = registerBlock("quince_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    public static final RegistryObject<Block> WILD_SLOE_BERRIES = registerBlock("wild_sloe_berries",
+            () -> new WildCropBlock(MobEffects.WEAKNESS, 10, Block.Properties.copy(Blocks.TALL_GRASS)));
 
     public static final RegistryObject<Block> SLOE_BERRIES = BLOCKS.register("sloe_berries",
             () -> new SloeBerriesBlock(BlockBehaviour.Properties.copy(Blocks.SWEET_BERRY_BUSH).noOcclusion()));
@@ -90,10 +92,19 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STARFRUIT_CHEESECAKE = BLOCKS.register("starfruit_cheesecake",
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.STARFRUIT_CHEESECAKE_SLICE));
+    public static final RegistryObject<Block> SWEET_QUINCE_TART = BLOCKS.register("sweet_quince_tart",
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SWEET_QUINCE_TART_SLICE));
+    public static final RegistryObject<Block> SLOE_TREACLE_TART = BLOCKS.register("sloe_treacle_tart",
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SLOE_TREACLE_TART_SLICE));
 
     //BlockItems
     public static final RegistryObject<Item> STARFRUIT_CHEESECAKE_ITEM = ITEMS.register("starfruit_cheesecake",
             () -> new BlockItem(ModBlocks.STARFRUIT_CHEESECAKE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SWEET_QUINCE_TART_ITEM = ITEMS.register("sweet_quince_tart",
+            () -> new BlockItem(ModBlocks.SWEET_QUINCE_TART.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SLOE_TREACLE_TART_ITEM = ITEMS.register("sloe_treacle_tart",
+            () -> new BlockItem(ModBlocks.SLOE_TREACLE_TART.get(), new Item.Properties()));
+
 
 
 

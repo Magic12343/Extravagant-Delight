@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "extravagantdelight:block/coaster/quince_cookie",
+		"particle": "extravagantdelight:block/coaster/quince_cookie"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [1, 6, 5, 7], "texture": "#0"},
+				"east": {"uv": [5, 6, 1, 7], "texture": "#0"},
+				"south": {"uv": [1, 6, 5, 7], "texture": "#0"},
+				"west": {"uv": [5, 6, 1, 7], "texture": "#0"},
+				"up": {"uv": [1, 1, 5, 5], "texture": "#0"},
+				"down": {"uv": [6, 1, 10, 5], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -78,18 +78,39 @@ public class ModItems {
     public static final RegistryObject<Item> STARFRUIT_SALMON = registerWithTab("starfruit_salmon",
             () -> new ConsumableItem(bowlFoodItem(EDFoodValues.STARFRUIT_SALMON), true));
     public static final RegistryObject<Item> STARFRUIT_POPSICLE = registerWithTab("starfruit_popsicle",
-            () -> new PopsicleItem(bowlFoodItem(EDFoodValues.STARFRUIT_POPSICLE)));
+            () -> new PopsicleItem(foodItem(EDFoodValues.STARFRUIT_POPSICLE)));
     public static final RegistryObject<Item> STARFRUIT_JAM = registerWithTab("starfruit_jam",
             () -> new DrinkableItem(drinkItem().food(EDFoodValues.STARFRUIT_JAM), true, false));
     public static final RegistryObject<Item> STARFRUIT_MUFFIN = registerWithTab("starfruit_muffin",
-            () -> new ConsumableItem(bowlFoodItem(EDFoodValues.STARFRUIT_MUFFIN), true));
+            () -> new ConsumableItem(foodItem(EDFoodValues.STARFRUIT_MUFFIN), true));
     public static final RegistryObject<Item> STARFRUIT_JUICE = registerWithTab("starfruit_juice",
             () -> new DrinkableItem(drinkItem().food(EDFoodValues.STARFRUIT_JUICE), true, false));
     public static final RegistryObject<Item> STARFRUIT_CHEESECAKE_SLICE = registerWithTab("starfruit_cheesecake_slice",
             () -> new Item(foodItem(EDFoodValues.STARFRUIT_CHEESECAKE_SLICE)));
 
+    public static final RegistryObject<Item> BOILED_QUINCE = registerWithTab("boiled_quince",
+            () -> new ConsumableItem(foodItem(EDFoodValues.BOILED_QUINCE), true));
+    public static final RegistryObject<Item> BOILED_QUINCE_PEEL = ITEMS.register("boiled_quince_peel",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BOILED_QUINCE_PULP = registerWithTab("boiled_quince_pulp",
+            () -> new ConsumableItem(foodItem(EDFoodValues.BOILED_QUINCE_PULP), true));
+    public static final RegistryObject<Item> BOILED_QUINCE_SEEDS = ITEMS.register("boiled_quince_seeds",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> QUINCE_CANDY = registerWithTab("quince_candy",
+            () -> new ConsumableItem(foodItem(EDFoodValues.QUINCE_CANDY), true));
+    public static final RegistryObject<Item> QUINCE_COOKIE = registerWithTab("quince_cookie",
+            () -> new ConsumableItem(foodItem(EDFoodValues.QUINCE_COOKIE), true));
+    public static final RegistryObject<Item> QUINCE_JELLY = registerWithTab("quince_jelly",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.QUINCE_JELLY), true, false));
+    public static final RegistryObject<Item> SWEET_QUINCE_TART_SLICE = registerWithTab("sweet_quince_tart_slice",
+            () -> new Item(foodItem(EDFoodValues.SWEET_QUINCE_TART_SLICE)));
 
-
+    public static final RegistryObject<Item> SLOE_BERRY_JELLY = registerWithTab("sloe_berry_jelly",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.SLOE_BERRY_JELLY), true, false));
+    public static final RegistryObject<Item> SLOE_BERRY_JUICE = registerWithTab("sloe_berry_juice",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.SLOE_BERRY_JUICE), true, false));
+    public static final RegistryObject<Item> SLOE_TREACLE_TART_SLICE = registerWithTab("sloe_treacle_tart_slice",
+            () -> new Item(foodItem(EDFoodValues.SLOE_TREACLE_TART_SLICE)));
 
 
     public static void register(IEventBus eventBus) {
