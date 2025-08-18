@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "extravagantdelight:block/stripped_quince_log",
+    "end": "extravagantdelight:block/stripped_quince_log_top"
+  }
+}

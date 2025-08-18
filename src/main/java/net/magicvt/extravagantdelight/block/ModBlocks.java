@@ -2,14 +2,19 @@ package net.magicvt.extravagantdelight.block;
 
 import net.magicvt.extravagantdelight.ExtravagantDelight;
 import net.magicvt.extravagantdelight.item.ModItems;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.block.CabinetBlock;
 import vectorwing.farmersdelight.common.block.PieBlock;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
 
@@ -77,6 +82,46 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> QUINCE_LOG = registerBlock("quince_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> STRIPPED_QUINCE_LOG = registerBlock("stripped_quince_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
+    public static final RegistryObject<Block> QUINCE_WOOD = registerBlock("quince_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_QUINCE_WOOD = registerBlock("stripped_quince_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final RegistryObject<Block> QUINCE_PLANKS = registerBlock("quince_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {});
+    public static final RegistryObject<Block> QUINCE_STAIRS = registerBlock("quince_stairs",
+            () -> new StairBlock(() -> ModBlocks.QUINCE_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1.0f, 3.0f)
+                            .sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> QUINCE_SLAB = registerBlock("quince_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(1.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final RegistryObject<DoorBlock> QUINCE_DOOR = registerBlock("quince_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR)
+                    .strength(1.0f, 3.0f)
+                    .noOcclusion()
+                    .sound(SoundType.WOOD),
+                    BlockSetType.ACACIA));
+    public static final RegistryObject<Block> QUINCE_TRAPDOOR = BLOCKS.register("quince_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .strength(3.0F)
+                    .sound(SoundType.WOOD)
+                    .noOcclusion(), BlockSetType.OAK));
+    public static final RegistryObject<Block> QUINCE_FENCE = registerBlock("quince_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {});
+    public static final RegistryObject<Block> QUINCE_FENCE_GATE = registerBlock("quince_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE).sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
+    public static final RegistryObject<Block> QUINCE_CABINET = registerBlock("quince_cabinet",
+            () -> new CabinetBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {});
+    public static final RegistryObject<Block> QUINCE_BUTTON = registerBlock("quince_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.WOOD),
+                    BlockSetType.ACACIA, 10, true));
+    public static final RegistryObject<Block> QUINCE_PRESSURE_PLATE = registerBlock("quince_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.WOOD),
+                    BlockSetType.ACACIA));
+
 
     public static final RegistryObject<Block> QUINCE_CRATE = registerBlock("quince_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
@@ -104,6 +149,8 @@ public class ModBlocks {
             () -> new BlockItem(ModBlocks.SWEET_QUINCE_TART.get(), new Item.Properties()));
     public static final RegistryObject<Item> SLOE_TREACLE_TART_ITEM = ITEMS.register("sloe_treacle_tart",
             () -> new BlockItem(ModBlocks.SLOE_TREACLE_TART.get(), new Item.Properties()));
+    public static final RegistryObject<Item> QUINCE_TRAPDOOR_ITEM = ITEMS.register("quince_trapdoor",
+            () -> new BlockItem(ModBlocks.QUINCE_TRAPDOOR.get(), new Item.Properties()));
 
 
 

@@ -4,14 +4,11 @@ import net.magicvt.extravagantdelight.ExtravagantDelight;
 import net.magicvt.extravagantdelight.block.ModBlocks;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
 import vectorwing.farmersdelight.common.item.PopsicleItem;
@@ -113,6 +110,7 @@ public class ModItems {
             () -> new DrinkableItem(drinkItem().food(EDFoodValues.SLOE_BERRY_JUICE), true, false));
     public static final RegistryObject<Item> SLOE_TREACLE_TART_SLICE = registerWithTab("sloe_treacle_tart_slice",
             () -> new Item(foodItem(EDFoodValues.SLOE_TREACLE_TART_SLICE)));
+
 
 
     public static void register(IEventBus eventBus) {

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "extravagantdelight:block/quince_slab"
+    },
+    "type=double": {
+      "model": "extravagantdelight:block/quince_planks"
+    },
+    "type=top": {
+      "model": "extravagantdelight:block/quince_slab_top"
+    }
+  }
+}

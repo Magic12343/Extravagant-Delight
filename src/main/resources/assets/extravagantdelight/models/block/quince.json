@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "extravagantdelight:block/quince_cabinet_front",
+    "side": "extravagantdelight:block/quince_cabinet_side",
+    "top": "extravagantdelight:block/quince_cabinet_top"
+  }
+}

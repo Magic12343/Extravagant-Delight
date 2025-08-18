@@ -33,6 +33,8 @@ public class ExtravagantDelight {
         ModBlocks.register(modEventBus);
 
 
+
+
         CompatHandler.init(modEventBus);
 
         modEventBus.addListener(this::commonSetup);

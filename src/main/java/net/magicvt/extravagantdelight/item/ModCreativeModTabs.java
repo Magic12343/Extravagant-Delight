@@ -21,6 +21,20 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_LOG.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.STRIPPED_QUINCE_LOG.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_WOOD.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.STRIPPED_QUINCE_WOOD.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_PLANKS.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_STAIRS.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_SLAB.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_DOOR.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_TRAPDOOR.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_FENCE.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_FENCE_GATE.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_CABINET.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_BUTTON.get().asItem()));
+                        pOutput.accept(new ItemStack(ModBlocks.QUINCE_PRESSURE_PLATE.get().asItem()));
+
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_LEAVES.get().asItem()));
                         pOutput.accept(new ItemStack(ModBlocks.FLOURISHING_QUINCE_LEAVES.get().asItem()));
 
