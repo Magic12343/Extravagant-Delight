@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "extravagantdelight:starfruit"
+        }
+    },
+    "result": {
+        "item": "extravagantdelight:starfruit_crate",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "extravagantdelight:quince"
+        }
+    },
+    "result": {
+        "item": "extravagantdelight:quince_crate",
+        "count": 1
+    }
+}

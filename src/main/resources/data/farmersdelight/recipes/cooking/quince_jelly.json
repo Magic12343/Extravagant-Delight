@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "extravagantdelight:boiled_quince_peel"
+    },
+    {
+      "item": "extravagantdelight:boiled_quince_peel"
+    },
+    {
+      "item": "extravagantdelight:boiled_quince_seeds"
+    },
+    {
+      "item": "extravagantdelight:boiled_quince_seeds"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "extravagantdelight:quince_jelly"
+  }
+}

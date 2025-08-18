@@ -55,6 +55,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.QUINCE_COOKIE.get());
 
+                        pOutput.accept(ModItems.STARFRUIT_SLICE.get());
+
                         pOutput.accept(ModItems.BOILED_QUINCE.get());
                         pOutput.accept(ModItems.BOILED_QUINCE_PEEL.get());
                         pOutput.accept(ModItems.BOILED_QUINCE_PULP.get());

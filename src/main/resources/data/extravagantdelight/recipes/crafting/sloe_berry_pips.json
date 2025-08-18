@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:sloe_berries"
+    }
+  ],
+  "result": {
+    "item": "extravagantdelight:sloe_berry_pips"
+  }
+}

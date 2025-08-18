@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "D",
+        "W"
+    ],
+    "key": {
+        "#": {
+            "item": "extravagantdelight:quince"
+        },
+        "D": {
+            "item": "farmersdelight:organic_compost"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "extravagantdelight:quince_seedling",
+        "count": 1
+    }
+}

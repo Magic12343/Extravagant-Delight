@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:sloe_berries"
+    },
+    {
+      "item": "extravagantdelight:sloe_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "extravagantdelight:sloe_berries"
+    },
+    {
+      "item": "extravagantdelight:sloe_berries"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "extravagantdelight:sloe_berry_juice"
+  }
+}

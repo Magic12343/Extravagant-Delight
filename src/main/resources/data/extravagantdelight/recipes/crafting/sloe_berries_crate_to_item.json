@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "extravagantdelight:sloe_berries_crate"
+        }
+    ],
+    "result": {
+        "item": "extravagantdelight:sloe_berries",
+        "count": 9
+    }
+}

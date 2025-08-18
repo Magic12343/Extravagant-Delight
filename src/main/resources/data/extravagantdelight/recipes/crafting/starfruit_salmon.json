@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_fishes/salmon"
+    },
+    {
+      "item": "extravagantdelight:starfruit_slice"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "extravagantdelight:starfruit_slice"
+    }
+  ],
+  "result": {
+    "item": "extravagantdelight:starfruit_salmon"
+  }
+}

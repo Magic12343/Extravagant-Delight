@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:sweet_quince_tart"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "extravagantdelight:sweet_quince_tart_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

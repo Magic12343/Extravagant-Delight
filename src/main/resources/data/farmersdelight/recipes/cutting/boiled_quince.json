@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:boiled_quince"
+    }
+  ],
+  "result": [
+    {
+      "item": "extravagantdelight:boiled_quince_peel"
+    },
+    {
+      "item": "extravagantdelight:boiled_quince_pulp"
+    },
+    {
+      "item": "extravagantdelight:boiled_quince_seeds"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

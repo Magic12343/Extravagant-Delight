@@ -53,6 +53,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> STARFRUIT = ITEMS.register("starfruit",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.3F).build())));
+    public static final RegistryObject<Item> STARFRUIT_SLICE = ITEMS.register("starfruit_slice",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(0.2F).build())));
 
     public static final RegistryObject<Item> STARFRUIT_SEEDS = ITEMS.register("starfruit_seeds",
             () -> new net.minecraft.world.item.ItemNameBlockItem(ModBlocks.STARFRUIT_CROP.get(), new Item.Properties()));

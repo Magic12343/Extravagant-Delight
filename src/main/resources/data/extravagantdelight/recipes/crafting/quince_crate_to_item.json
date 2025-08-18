@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "extravagantdelight:quince_crate"
+        }
+    ],
+    "result": {
+        "item": "extravagantdelight:quince",
+        "count": 9
+    }
+}

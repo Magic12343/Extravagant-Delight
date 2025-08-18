@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "extravagantdelight:starfruit_slice"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BSB",
+    " W "
+  ],
+  "result": {
+    "item": "extravagantdelight:starfruit_muffin"
+  },
+  "show_notification": true
+}

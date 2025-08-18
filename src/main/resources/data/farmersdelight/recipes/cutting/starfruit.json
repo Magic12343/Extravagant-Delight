@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:starfruit"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "extravagantdelight:starfruit_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

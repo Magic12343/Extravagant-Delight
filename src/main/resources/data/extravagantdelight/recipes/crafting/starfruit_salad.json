@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:starfruit_slice"
+    },
+    {
+      "item": "extravagantdelight:starfruit_slice"
+    },
+    {
+      "item": "extravagantdelight:starfruit_slice"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "extravagantdelight:starfruit_salad"
+  }
+}

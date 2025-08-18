@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "extravagantdelight:sloe_treacle_tart_slice"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "extravagantdelight:sloe_treacle_tart"
+  },
+  "show_notification": true
+}
