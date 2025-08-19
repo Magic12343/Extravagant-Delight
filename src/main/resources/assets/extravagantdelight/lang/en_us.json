@@ -53,6 +53,7 @@
   "item.extravagantdelight.sloe_treacle_tart_slice": "Sloe Treacle Tart Slice",
   "block.extravagantdelight.wild_sloe_berries": "Wild Sloe Berries",
   "item.extravagantdelight.starfruit_slice": "Starfruit Slice",
+  "item.extravagantdelight.quince_juice": "Quince Juice",
 
   "block.extravagantdelight.starfruit_ice_cream_block": "Starfruit Ice Cream Block",
   "block.extravagantdelight.quince_ice_cream_block": "Quince Ice Cream Block",
@@ -72,6 +73,9 @@
   "block.extravagantdelight.starfruit_wine_crate": "Tropical Wine Crate",
   "block.extravagantdelight.quince_wine_crate": "Farmer's Wine Crate",
   "block.extravagantdelight.sloe_berry_wine_crate": "Country Wine Crate",
+  "fluid_type.extravagantdelight.starfruit_wine": "Starfruit Wine",
+  "fluid_type.extravagantdelight.quince_wine": "Quince Wine",
+  "fluid_type.extravagantdelight.sloe_berry_wine": "Sloe Berry Wine",
 
   "creativetab.extravagantdelight_tab": "Extravagant Delight"
 }

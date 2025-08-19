@@ -43,6 +43,8 @@ public class EDFoodValues extends FoodValues {
             .build();
     public static final FoodProperties SLOE_BERRY_JUICE = (new FoodProperties.Builder())
             .nutrition(5).saturationMod(0.3f).build();
+    public static final FoodProperties QUINCE_JUICE = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.3f).build();
 
     public static final FoodProperties SLOE_BERRY_JELLY = (new FoodProperties.Builder())
             .nutrition(5).saturationMod(0.4f).build();

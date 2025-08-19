@@ -55,6 +55,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.SLOE_BERRIES_CRATE.get().asItem()));
 
                         pOutput.accept(ModItems.STARFRUIT_JUICE.get());
+                        pOutput.accept(ModItems.QUINCE_JUICE.get());
                         pOutput.accept(ModItems.SLOE_BERRY_JUICE.get());
 
                         pOutput.accept(ModItems.STARFRUIT_JAM.get());

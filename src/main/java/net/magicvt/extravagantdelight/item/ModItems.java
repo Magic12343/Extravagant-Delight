@@ -103,6 +103,8 @@ public class ModItems {
             () -> new DrinkableItem(drinkItem().food(EDFoodValues.QUINCE_JELLY), true, false));
     public static final RegistryObject<Item> SWEET_QUINCE_TART_SLICE = registerWithTab("sweet_quince_tart_slice",
             () -> new Item(foodItem(EDFoodValues.SWEET_QUINCE_TART_SLICE)));
+    public static final RegistryObject<Item> QUINCE_JUICE = registerWithTab("quince_juice",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.QUINCE_JUICE), true, false));
 
     public static final RegistryObject<Item> SLOE_BERRY_JELLY = registerWithTab("sloe_berry_jelly",
             () -> new DrinkableItem(drinkItem().food(EDFoodValues.SLOE_BERRY_JELLY), true, false));

@@ -1,0 +1,10 @@
+{
+  "type": "hearthandharvest:bottle_crate",
+  "input": {
+    "item": "extravagantdelight:quince_wine"
+  },
+  "result": {
+    "item": "extravagantdelight:quince_wine_crate",
+    "count": 1
+  }
+}
