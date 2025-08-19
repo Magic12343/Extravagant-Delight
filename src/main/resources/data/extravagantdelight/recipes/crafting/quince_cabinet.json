@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fd_cabinet",
+  "key": {
+    "D": {
+      "item": "extravagantdelight:quince_trapdoor"
+    },
+    "_": {
+      "item": "extravagantdelight:quince_slab"
+    }
+  },
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "result": {
+    "item": "extravagantdelight:quince_cabinet"
+  },
+  "show_notification": true
+}

@@ -81,13 +81,13 @@ public class ModBlocks {
                     .sound(Blocks.OAK_LEAVES.defaultBlockState().getSoundType())));
 
     public static final RegistryObject<Block> QUINCE_LOG = registerBlock("quince_log",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+            () -> new ModLogBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
     public static final RegistryObject<Block> STRIPPED_QUINCE_LOG = registerBlock("stripped_quince_log",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
+            () -> new ModLogBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)));
     public static final RegistryObject<Block> QUINCE_WOOD = registerBlock("quince_wood",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
+            () -> new ModLogBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
     public static final RegistryObject<Block> STRIPPED_QUINCE_WOOD = registerBlock("stripped_quince_wood",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
+            () -> new ModLogBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)));
     public static final RegistryObject<Block> QUINCE_PLANKS = registerBlock("quince_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {});
     public static final RegistryObject<Block> QUINCE_STAIRS = registerBlock("quince_stairs",
