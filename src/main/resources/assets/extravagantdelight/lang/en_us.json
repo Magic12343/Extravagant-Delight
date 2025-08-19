@@ -54,6 +54,15 @@
   "block.extravagantdelight.wild_sloe_berries": "Wild Sloe Berries",
   "item.extravagantdelight.starfruit_slice": "Starfruit Slice",
 
+  "block.extravagantdelight.starfruit_ice_cream_block": "Starfruit Ice Cream Block",
+  "block.extravagantdelight.quince_ice_cream_block": "Quince Ice Cream Block",
+  "block.extravagantdelight.sloe_berry_ice_cream_block": "Sloe Berry Ice Cream Block",
+  "item.extravagantdelight.starfruit_ice_cream": "Starfruit Ice Cream",
+  "item.extravagantdelight.quince_ice_cream": "Quince Ice Cream",
+  "item.extravagantdelight.sloe_berry_ice_cream": "Sloe Berry Ice Cream",
+  "item.extravagantdelight.starfruit_milkshake": "Starfruit Milkshake",
+  "item.extravagantdelight.quince_milkshake": "Quince Milkshake",
+  "item.extravagantdelight.sloe_berry_milkshake": "Sloe Berry Milkshake",
 
 
   "creativetab.extravagantdelight_tab": "Extravagant Delight"

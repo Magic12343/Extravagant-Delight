@@ -2,6 +2,7 @@ package net.magicvt.extravagantdelight.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.item.Item;
 import vectorwing.farmersdelight.common.FoodValues;
 import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.registry.ModEffects;
@@ -48,6 +49,29 @@ public class EDFoodValues extends FoodValues {
     public static final FoodProperties SLOE_TREACLE_TART_SLICE = (new FoodProperties.Builder())
             .nutrition(2).saturationMod(0.1f).fast()
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 400, 0, false, false), 1.0F).build();
+
+    public static final FoodProperties STARFRUIT_ICE_CREAM = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.4F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 0, false, false), 1.0F).build();
+    public static final FoodProperties QUINCE_ICE_CREAM = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.4F)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 0), 1.0F)
+            .build();
+    public static final FoodProperties SLOE_BERRY_ICE_CREAM = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.4F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 400, 0, false, false), 1.0F).build();
+
+    public static final FoodProperties STARFRUIT_MILKSHAKE = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(1.6F).alwaysEat()
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 0, false, false), 1.0F).build();
+    public static final FoodProperties QUINCE_MILKSHAKE = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(1.6F).alwaysEat()
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 0), 1.0F)
+            .build();
+    public static final FoodProperties SLOE_BERRY_MILKSHAKE = (new FoodProperties.Builder())
+            .nutrition(2).saturationMod(1.6F).alwaysEat()
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 400, 0, false, false), 1.0F).build();
+
 
 
 

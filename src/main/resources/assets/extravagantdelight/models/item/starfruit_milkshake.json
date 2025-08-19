@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "extravagantdelight:item/neapolitan/starfruit_milkshake"
+  }
+}
