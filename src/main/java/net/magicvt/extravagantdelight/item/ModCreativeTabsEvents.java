@@ -1,6 +1,7 @@
 package net.magicvt.extravagantdelight.item;
 
 import net.magicvt.extravagantdelight.ExtravagantDelight;
+import net.magicvt.extravagantdelight.compat.BCCompatBlocks;
 import net.magicvt.extravagantdelight.compat.HHCompatBlocks;
 import net.magicvt.extravagantdelight.compat.NTCompatBlocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -75,11 +76,28 @@ public class ModCreativeTabsEvents {
 
             }
 
+            if (ModList.get().isLoaded("brewinandchewin")) {
+                if (BCCompatBlocks.STARFRUIT_PALOMA.isPresent()) {
+                    event.accept(BCCompatBlocks.STARFRUIT_PALOMA.get());
+                }
+                if (BCCompatBlocks.PINK_GIN.isPresent()) {
+                    event.accept(BCCompatBlocks.PINK_GIN.get());
+                }
+                if (BCCompatBlocks.SLOE_GIN.isPresent()) {
+                    event.accept(BCCompatBlocks.SLOE_GIN.get());
+                }
+                if (BCCompatBlocks.SLOE_VODKA.isPresent()) {
+                    event.accept(BCCompatBlocks.SLOE_VODKA.get());
+                }
+
+                }
+
+            }
+
 
         }
 
 
         }
-    }
 
 

@@ -1,0 +1,13 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "amount": 250,
+  "filling": true,
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "fluid": "extravagantdelight:starfruit_paloma",
+  "output": {
+    "item": "extravagantdelight:starfruit_paloma"
+  },
+  "strict": false
+}

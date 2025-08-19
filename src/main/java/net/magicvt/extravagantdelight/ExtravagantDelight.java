@@ -2,6 +2,7 @@ package net.magicvt.extravagantdelight;
 
 import com.mojang.logging.LogUtils;
 import net.magicvt.extravagantdelight.block.ModBlocks;
+import net.magicvt.extravagantdelight.compat.BCCompatFluids;
 import net.magicvt.extravagantdelight.compat.CompatHandler;
 import net.magicvt.extravagantdelight.compat.HHCompatFluids;
 import net.magicvt.extravagantdelight.item.ModCreativeModTabs;
@@ -35,6 +36,9 @@ public class ExtravagantDelight {
         HHCompatFluids.FLUID_TYPES.register(modEventBus);
         HHCompatFluids.FLUIDS.register(modEventBus);
         HHCompatFluids.registerCompat();
+        BCCompatFluids.FLUID_TYPES.register(modEventBus);
+        BCCompatFluids.FLUIDS.register(modEventBus);
+        BCCompatFluids.registerCompat();
 
         CompatHandler.init(modEventBus);
 

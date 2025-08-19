@@ -1,15 +1,10 @@
 package net.magicvt.extravagantdelight.compat;
 
 import alabaster.hearthandharvest.common.block.HalfCabinetBlock;
-import alabaster.hearthandharvest.common.block.WineRackBlock;
 import alabaster.hearthandharvest.common.item.WineBottleItem;
-import alabaster.hearthandharvest.common.registry.HHModBlocks;
-import com.teamabnormals.neapolitan.common.item.IceCreamItem;
-import com.teamabnormals.neapolitan.core.registry.NeapolitanBlocks;
 import net.magicvt.extravagantdelight.ExtravagantDelight;
 import net.magicvt.extravagantdelight.item.EDFoodValues;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -22,7 +17,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import vectorwing.farmersdelight.common.registry.ModEffects;
 
 import java.util.function.Supplier;
 
@@ -85,16 +79,6 @@ public class HHCompatBlocks {
         ITEMS.register(eventBus);
     }
 
-
-public static final class NeapolitanFoods {
-    public static final FoodProperties STARFRUIT_MILKSHAKE = createMilkshake(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 0, false, false)).build();
-    public static final FoodProperties QUINCE_MILKSHAKE = createMilkshake(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 0)).build();
-    public static final FoodProperties SLOE_BERRY_MILKSHAKE = createMilkshake(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 400, 0, false, false)).build();
-
-    public static final FoodProperties STARFRUIT_ICE_CREAM = createFood(6, 0.3F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 0, false, false), 1.0F).build();
-    public static final FoodProperties QUINCE_ICE_CREAM = createFood(6, 0.3F).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 0), 1.0F).build();
-    public static final FoodProperties SLOE_BERRY_ICE_CREAM = createFood(6, 0.3F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 400, 0, false, false), 1.0F).build();
-
     public static FoodProperties.Builder createFood(int nutrition, float saturation) {
         return new FoodProperties.Builder().nutrition(nutrition).saturationMod(saturation);
     }
@@ -102,5 +86,4 @@ public static final class NeapolitanFoods {
     public static FoodProperties.Builder createMilkshake(Supplier<MobEffectInstance> effect) {
         return createFood(2, 1.5F).alwaysEat().effect(effect, 1.0F);
     }
-}
 }

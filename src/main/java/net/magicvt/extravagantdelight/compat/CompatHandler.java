@@ -12,5 +12,8 @@ public class CompatHandler {
         if (ModList.get().isLoaded("hearthandharvest")) {
             HearthAndHarvestCompat.init(modEventBus);
         }
+        if (ModList.get().isLoaded("brewinandchewin")) {
+            BrewinAndChewinCompat.init(modEventBus);
+        }
     }
 }

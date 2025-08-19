@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:quince_half_cabinet"
+    },
+    {
+      "item": "extravagantdelight:quince_half_cabinet"
+    }
+  ],
+  "result": {
+    "item": "extravagantdelight:quince_cabinet"
+  }
+}

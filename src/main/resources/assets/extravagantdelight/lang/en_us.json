@@ -77,5 +77,14 @@
   "fluid_type.extravagantdelight.quince_wine": "Quince Wine",
   "fluid_type.extravagantdelight.sloe_berry_wine": "Sloe Berry Wine",
 
+  "fluid_type.extravagantdelight.starfruit_paloma": "Starfruit Paloma",
+  "fluid_type.extravagantdelight.pink_gin": "Pink Gin",
+  "fluid_type.extravagantdelight.sloe_gin": "Sloe Gin",
+  "fluid_type.extravagantdelight.sloe_vodka": "Sloe Vodka",
+  "item.extravagantdelight.starfruit_paloma": "Starfruit Paloma",
+  "item.extravagantdelight.pink_gin": "Pink Gin",
+  "item.extravagantdelight.sloe_gin": "Sloe Gin",
+  "item.extravagantdelight.sloe_vodka": "Sloe Vodka",
+
   "creativetab.extravagantdelight_tab": "Extravagant Delight"
 }
