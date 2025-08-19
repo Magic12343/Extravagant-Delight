@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "extravagantdelight:item/hearthandharvest/sloe_berry_wine"
+  },
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "extravagantdelight:block/sloe_berry_wine_bottle"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "extravagantdelight:item/2d_sloe_berry_wine"
+    },
+    "ground": {
+      "parent": "extravagantdelight:item/2d_sloe_berry_wine"
+    },
+    "fixed": {
+      "parent": "extravagantdelight:item/2d_sloe_berry_wine"
+    }
+  }
+}

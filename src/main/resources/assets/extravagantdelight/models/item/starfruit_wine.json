@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "extravagantdelight:item/hearthandharvest/starfruit_wine"
+  },
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "extravagantdelight:block/starfruit_wine_bottle"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "extravagantdelight:item/2d_starfruit_wine"
+    },
+    "ground": {
+      "parent": "extravagantdelight:item/2d_starfruit_wine"
+    },
+    "fixed": {
+      "parent": "extravagantdelight:item/2d_starfruit_wine"
+    }
+  }
+}

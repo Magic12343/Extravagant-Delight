@@ -9,5 +9,8 @@ public class CompatHandler {
         if (ModList.get().isLoaded("neapolitan")) {
             NeapolitanCompat.init(modEventBus);
         }
+        if (ModList.get().isLoaded("hearthandharvest")) {
+            HearthAndHarvestCompat.init(modEventBus);
+        }
     }
 }

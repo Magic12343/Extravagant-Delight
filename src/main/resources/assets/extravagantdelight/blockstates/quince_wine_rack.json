@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "extravagantdelight:block/quince_wine_rack",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "extravagantdelight:block/quince_wine_rack"
+    },
+    "facing=south": {
+      "model": "extravagantdelight:block/quince_wine_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extravagantdelight:block/quince_wine_rack",
+      "y": 270
+    }
+  }
+}

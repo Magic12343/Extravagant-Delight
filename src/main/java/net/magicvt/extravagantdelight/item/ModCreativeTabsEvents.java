@@ -1,6 +1,7 @@
 package net.magicvt.extravagantdelight.item;
 
 import net.magicvt.extravagantdelight.ExtravagantDelight;
+import net.magicvt.extravagantdelight.compat.HHCompatBlocks;
 import net.magicvt.extravagantdelight.compat.NTCompatBlocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -45,6 +46,33 @@ public class ModCreativeTabsEvents {
                 if (NTCompatBlocks.SLOE_BERRY_ICE_CREAM_BLOCK_ITEM.isPresent()) {
                     event.accept(NTCompatBlocks.SLOE_BERRY_ICE_CREAM_BLOCK_ITEM.get());
                 }
+            }
+
+            if (ModList.get().isLoaded("hearthandharvest")) {
+                if (HHCompatBlocks.QUINCE_HALF_CABINET_ITEM.isPresent()) {
+                    event.accept(HHCompatBlocks.QUINCE_HALF_CABINET_ITEM.get());
+                }
+
+                if (HHCompatBlocks.STARFRUIT_WINE.isPresent()) {
+                    event.accept(HHCompatBlocks.STARFRUIT_WINE.get());
+                }
+                if (HHCompatBlocks.QUINCE_WINE.isPresent()) {
+                    event.accept(HHCompatBlocks.QUINCE_WINE.get());
+                }
+                if (HHCompatBlocks.SLOE_BERRY_WINE.isPresent()) {
+                    event.accept(HHCompatBlocks.SLOE_BERRY_WINE.get());
+                }
+
+                if (HHCompatBlocks.STARFRUIT_WINE_CRATE_ITEM.isPresent()) {
+                    event.accept(HHCompatBlocks.STARFRUIT_WINE_CRATE_ITEM.get());
+                }
+                if (HHCompatBlocks.QUINCE_WINE_CRATE_ITEM.isPresent()) {
+                    event.accept(HHCompatBlocks.QUINCE_WINE_CRATE_ITEM.get());
+                }
+                if (HHCompatBlocks.SLOE_BERRY_WINE_CRATE_ITEM.isPresent()) {
+                    event.accept(HHCompatBlocks.SLOE_BERRY_WINE_CRATE_ITEM.get());
+                }
+
             }
 
 

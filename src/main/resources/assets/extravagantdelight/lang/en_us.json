@@ -64,6 +64,14 @@
   "item.extravagantdelight.quince_milkshake": "Quince Milkshake",
   "item.extravagantdelight.sloe_berry_milkshake": "Sloe Berry Milkshake",
 
+  "block.extravagantdelight.quince_half_cabinet": "Quince Half Cabinet",
+  "block.extravagantdelight.quince_wine_rack": "Quince Wine Rack",
+  "item.extravagantdelight.starfruit_wine": "Tropical Wine",
+  "item.extravagantdelight.quince_wine": "Farmer's Wine",
+  "item.extravagantdelight.sloe_berry_wine": "Country Wine",
+  "block.extravagantdelight.starfruit_wine_crate": "Tropical Wine Crate",
+  "block.extravagantdelight.quince_wine_crate": "Farmer's Wine Crate",
+  "block.extravagantdelight.sloe_berry_wine_crate": "Country Wine Crate",
 
   "creativetab.extravagantdelight_tab": "Extravagant Delight"
 }

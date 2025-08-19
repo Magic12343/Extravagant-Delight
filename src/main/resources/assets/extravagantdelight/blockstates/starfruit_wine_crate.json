@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "extravagantdelight:block/starfruit_wine_crate_bottom" },
+    "type=top": { "model": "extravagantdelight:block/starfruit_wine_crate_top" },
+    "type=double": { "model": "extravagantdelight:block/starfruit_wine_crate" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "hearthandharvest:block/half_cabinet",
+  "textures": {
+    "back": "extravagantdelight:block/quince_cabinet_side",
+    "front": "extravagantdelight:block/quince_cabinet_front",
+    "side": "extravagantdelight:block/quince_half_cabinet_side",
+    "top": "extravagantdelight:block/quince_half_cabinet_top"
+  }
+}

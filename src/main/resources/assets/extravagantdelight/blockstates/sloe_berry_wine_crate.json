@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "extravagantdelight:block/sloe_berry_wine_crate_bottom" },
+    "type=top": { "model": "extravagantdelight:block/sloe_berry_wine_crate_top" },
+    "type=double": { "model": "extravagantdelight:block/sloe_berry_wine_crate" }
+  }
+}
