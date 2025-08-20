@@ -93,6 +93,22 @@ public class EDFoodValues extends FoodValues {
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 2400, 1), 1.0F)
             .build();
 
+    public static final FoodProperties STARFRUIT_LOLLIPOP = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.4f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 1), 1.0F)
+            .build();
+    public static final FoodProperties QUINCE_LOLLIPOP = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.4f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 1), 1.0F)
+            .build();
+    public static final FoodProperties SLOE_BERRY_LOLLIPOP = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.4f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 1), 1.0F)
+            .build();
+
 
 
 

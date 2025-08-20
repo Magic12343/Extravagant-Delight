@@ -117,6 +117,31 @@ public class ModItems {
     public static final RegistryObject<Item> SLOE_BERRY_COOKIE = registerWithTab("sloe_berry_cookie",
             () -> new ConsumableItem(foodItem(EDFoodValues.SLOE_BERRY_COOKIE), true));
 
+    public static final RegistryObject<Item> STARFRUIT_LOLLIPOP =
+            registerWithTab("starfruit_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            EDFoodValues.STARFRUIT_LOLLIPOP,
+                            10
+                    )
+            );
+    public static final RegistryObject<Item> QUINCE_LOLLIPOP =
+            registerWithTab("quince_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            EDFoodValues.QUINCE_LOLLIPOP,
+                            10
+                    )
+            );
+    public static final RegistryObject<Item> SLOE_BERRY_LOLLIPOP =
+            registerWithTab("sloe_berry_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            EDFoodValues.SLOE_BERRY_LOLLIPOP,
+                            10
+                    )
+            );
+
 
 
     public static void register(IEventBus eventBus) {

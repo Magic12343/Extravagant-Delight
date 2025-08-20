@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "extravagantdelight:block/coaster/starfruit_lollipop",
+		"particle": "extravagantdelight:block/coaster/starfruit_lollipop"
+	},
+	"elements": [
+		{
+			"from": [4, 0.25, 3],
+			"to": [12, 0.25, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0.25, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 6, 0], "texture": "#0"},
+				"up": {"uv": [4, 3, 12, 12], "texture": "#0"}
+			}
+		}
+	]
+}

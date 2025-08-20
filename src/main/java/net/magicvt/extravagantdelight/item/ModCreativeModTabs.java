@@ -54,6 +54,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_CRATE.get().asItem()));
                         pOutput.accept(new ItemStack(ModBlocks.SLOE_BERRIES_CRATE.get().asItem()));
 
+                        pOutput.accept(ModItems.STARFRUIT_SLICE.get());
+                        pOutput.accept(ModItems.BOILED_QUINCE.get());
+                        pOutput.accept(ModItems.BOILED_QUINCE_PEEL.get());
+                        pOutput.accept(ModItems.BOILED_QUINCE_PULP.get());
+                        pOutput.accept(ModItems.BOILED_QUINCE_SEEDS.get());
+
                         pOutput.accept(ModItems.STARFRUIT_JUICE.get());
                         pOutput.accept(ModItems.QUINCE_JUICE.get());
                         pOutput.accept(ModItems.SLOE_BERRY_JUICE.get());
@@ -72,12 +78,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.QUINCE_COOKIE.get());
                         pOutput.accept(ModItems.SLOE_BERRY_COOKIE.get());
 
-                        pOutput.accept(ModItems.STARFRUIT_SLICE.get());
-
-                        pOutput.accept(ModItems.BOILED_QUINCE.get());
-                        pOutput.accept(ModItems.BOILED_QUINCE_PEEL.get());
-                        pOutput.accept(ModItems.BOILED_QUINCE_PULP.get());
-                        pOutput.accept(ModItems.BOILED_QUINCE_SEEDS.get());
+                        pOutput.accept(ModItems.STARFRUIT_LOLLIPOP.get());
+                        pOutput.accept(ModItems.QUINCE_LOLLIPOP.get());
+                        pOutput.accept(ModItems.SLOE_BERRY_LOLLIPOP.get());
 
                         pOutput.accept(new ItemStack(ModBlocks.STARFRUIT_CHEESECAKE.get().asItem()));
                         pOutput.accept(ModItems.STARFRUIT_CHEESECAKE_SLICE.get());

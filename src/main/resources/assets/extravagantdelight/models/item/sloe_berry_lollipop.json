@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "extravagantdelight:item/sloe_berry_lollipop"
+  },
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "extravagantdelight:block/sloe_berry_lollipop"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "extravagantdelight:item/2d_sloe_berry_lollipop"
+    },
+    "ground": {
+      "parent": "extravagantdelight:item/2d_sloe_berry_lollipop"
+    },
+    "fixed": {
+      "parent": "extravagantdelight:item/2d_sloe_berry_lollipop"
+    }
+  }
+}
