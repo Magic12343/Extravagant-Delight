@@ -1,0 +1,49 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "extravagantdelight:block/coaster/glow_berry_yogurt",
+		"particle": "extravagantdelight:block/coaster/glow_berry_yogurt"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [5, 0, 9, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 5], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 5], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 5], "texture": "#0"},
+				"up": {"uv": [10, 0, 14, 4], "texture": "#0"},
+				"down": {"uv": [10, 0, 14, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 1, 7],
+			"to": [9, 4, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [1, 6, 3, 9], "texture": "#0"},
+				"east": {"uv": [1, 6, 3, 9], "texture": "#0"},
+				"south": {"uv": [1, 6, 3, 9], "texture": "#0"},
+				"west": {"uv": [1, 6, 3, 9], "texture": "#0"},
+				"up": {"uv": [4, 6, 6, 8], "texture": "#0"},
+				"down": {"uv": [4, 6, 6, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 2, 6],
+			"to": [6, 6, 6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [6, 4, 6]},
+			"faces": {
+				"north": {"uv": [1, 9, 7, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"south": {"uv": [8, 9, 14, 13], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 0], "texture": "#0"}
+			}
+		}
+	]
+}

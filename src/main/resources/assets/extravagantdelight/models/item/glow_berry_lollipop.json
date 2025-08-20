@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "extravagantdelight:item/hearthandharvest/glow_berry_lollipop"
+  },
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "extravagantdelight:block/glow_berry_lollipop"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "extravagantdelight:item/2d_glow_berry_lollipop"
+    },
+    "ground": {
+      "parent": "extravagantdelight:item/2d_glow_berry_lollipop"
+    },
+    "fixed": {
+      "parent": "extravagantdelight:item/2d_glow_berry_lollipop"
+    }
+  }
+}
