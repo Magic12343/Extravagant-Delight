@@ -19,6 +19,8 @@ public class EDFoodValues extends FoodValues {
             .nutrition(6).saturationMod(0.3f).build();
     public static final FoodProperties STARFRUIT_MUFFIN = (new FoodProperties.Builder())
             .nutrition(6).saturationMod(0.5f).build();
+    public static final FoodProperties SLOE_BERRY_CUPCAKE = (new FoodProperties.Builder())
+            .nutrition(6).saturationMod(0.7f).build();
     public static final FoodProperties STARFRUIT_JUICE = (new FoodProperties.Builder())
             .nutrition(4).saturationMod(0.4f).build();
     public static final FoodProperties STARFRUIT_CHEESECAKE_SLICE = (new FoodProperties.Builder())
@@ -35,6 +37,8 @@ public class EDFoodValues extends FoodValues {
             .build();
     public static final FoodProperties QUINCE_COOKIE = (new FoodProperties.Builder())
             .nutrition(4).saturationMod(0.3f).build();
+    public static final FoodProperties SLOE_BERRY_COOKIE = (new FoodProperties.Builder())
+            .nutrition(4).saturationMod(0.5f).build();
     public static final FoodProperties QUINCE_JELLY = (new FoodProperties.Builder())
             .nutrition(6).saturationMod(0.3f).build();
     public static final FoodProperties SWEET_QUINCE_TART_SLICE = (new FoodProperties.Builder())

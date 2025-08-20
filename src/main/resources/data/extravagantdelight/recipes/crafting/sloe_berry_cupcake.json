@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "extravagantdelight:sloe_berries"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " B",
+    "BSB",
+    " W "
+  ],
+  "result": {
+    "item": "extravagantdelight:sloe_berry_cupcake"
+  },
+  "show_notification": true
+}

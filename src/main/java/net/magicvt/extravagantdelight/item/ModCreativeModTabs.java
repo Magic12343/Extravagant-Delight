@@ -67,8 +67,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.QUINCE_CANDY.get());
 
                         pOutput.accept(ModItems.STARFRUIT_MUFFIN.get());
+                        pOutput.accept(ModItems.SLOE_BERRY_CUPCAKE.get());
 
                         pOutput.accept(ModItems.QUINCE_COOKIE.get());
+                        pOutput.accept(ModItems.SLOE_BERRY_COOKIE.get());
 
                         pOutput.accept(ModItems.STARFRUIT_SLICE.get());
 

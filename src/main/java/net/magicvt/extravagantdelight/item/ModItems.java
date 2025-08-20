@@ -112,6 +112,10 @@ public class ModItems {
             () -> new DrinkableItem(drinkItem().food(EDFoodValues.SLOE_BERRY_JUICE), true, false));
     public static final RegistryObject<Item> SLOE_TREACLE_TART_SLICE = registerWithTab("sloe_treacle_tart_slice",
             () -> new Item(foodItem(EDFoodValues.SLOE_TREACLE_TART_SLICE)));
+    public static final RegistryObject<Item> SLOE_BERRY_CUPCAKE = registerWithTab("sloe_berry_cupcake",
+            () -> new ConsumableItem(foodItem(EDFoodValues.SLOE_BERRY_CUPCAKE), true));
+    public static final RegistryObject<Item> SLOE_BERRY_COOKIE = registerWithTab("sloe_berry_cookie",
+            () -> new ConsumableItem(foodItem(EDFoodValues.SLOE_BERRY_COOKIE), true));
 
 
 
