@@ -109,6 +109,42 @@ public class EDFoodValues extends FoodValues {
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 1), 1.0F)
             .build();
 
+    public static final FoodProperties VEGETABLE_OIL = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 400, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 400, 1), 1.0F)
+            .build();
+    public static final FoodProperties MAYO = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 200, 1), 1.0F)
+            .build();
+
+    public static final FoodProperties APPLE_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
+            .build();
+    public static final FoodProperties SWEET_BERRY_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties GLOW_BERRY_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties STARFRUIT_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties SLOE_BERRY_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
+            .build();
+
 
 
 

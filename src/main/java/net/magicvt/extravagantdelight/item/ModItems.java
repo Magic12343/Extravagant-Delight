@@ -123,6 +123,7 @@ public class ModItems {
                             new Item.Properties().stacksTo(1),
                             EDFoodValues.STARFRUIT_LOLLIPOP,
                             10
+
                     )
             );
     public static final RegistryObject<Item> QUINCE_LOLLIPOP =
@@ -141,6 +142,20 @@ public class ModItems {
                             10
                     )
             );
+
+    public static final RegistryObject<Item> APPLE_YOGURT = ITEMS.register("apple_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.APPLE_YOGURT), true, false));
+    public static final RegistryObject<Item> SWEET_BERRY_YOGURT = ITEMS.register("sweet_berry_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.SWEET_BERRY_YOGURT), true, false));
+    public static final RegistryObject<Item> GLOW_BERRY_YOGURT = ITEMS.register("glow_berry_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.GLOW_BERRY_YOGURT), true, false));
+    public static final RegistryObject<Item> STARFRUIT_YOGURT = ITEMS.register("starfruit_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.STARFRUIT_YOGURT), true, false));
+    public static final RegistryObject<Item> SLOE_BERRY_YOGURT = ITEMS.register("sloe_berry_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.SLOE_BERRY_YOGURT), true, false));
+
+
+
 
 
 

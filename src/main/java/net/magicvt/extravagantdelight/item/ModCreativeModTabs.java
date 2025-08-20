@@ -2,11 +2,15 @@ package net.magicvt.extravagantdelight.item;
 
 import net.magicvt.extravagantdelight.ExtravagantDelight;
 import net.magicvt.extravagantdelight.block.ModBlocks;
+import net.magicvt.extravagantdelight.compat.BCCompatBlocks;
+import net.magicvt.extravagantdelight.compat.HHCompatBlocks;
+import net.magicvt.extravagantdelight.compat.NTCompatBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -34,7 +38,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_CABINET.get().asItem()));
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_BUTTON.get().asItem()));
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_PRESSURE_PLATE.get().asItem()));
-
+                        if (ModList.get().isLoaded("hearthandharvest")) {
+                            HHCompatBlocks.QUINCE_HALF_CABINET_ITEM.ifPresent(pOutput::accept);
+                        }
                         pOutput.accept(new ItemStack(ModBlocks.QUINCE_LEAVES.get().asItem()));
                         pOutput.accept(new ItemStack(ModBlocks.FLOURISHING_QUINCE_LEAVES.get().asItem()));
 
@@ -82,6 +88,32 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.QUINCE_LOLLIPOP.get());
                         pOutput.accept(ModItems.SLOE_BERRY_LOLLIPOP.get());
 
+                        pOutput.accept(ModItems.APPLE_YOGURT.get());
+                        pOutput.accept(ModItems.SWEET_BERRY_YOGURT.get());
+                        pOutput.accept(ModItems.GLOW_BERRY_YOGURT.get());
+                        pOutput.accept(ModItems.STARFRUIT_YOGURT.get());
+                        pOutput.accept(ModItems.SLOE_BERRY_YOGURT.get());
+
+                        if (ModList.get().isLoaded("brewinandchewin")) {
+                            BCCompatBlocks.STARFRUIT_PALOMA.ifPresent(pOutput::accept);
+                            BCCompatBlocks.PINK_GIN.ifPresent(pOutput::accept);
+                            BCCompatBlocks.SLOE_GIN.ifPresent(pOutput::accept);
+                            BCCompatBlocks.SLOE_VODKA.ifPresent(pOutput::accept);
+                        }
+
+                        if (ModList.get().isLoaded("hearthandharvest")) {
+                            HHCompatBlocks.STARFRUIT_WINE.ifPresent(pOutput::accept);
+                            HHCompatBlocks.QUINCE_WINE.ifPresent(pOutput::accept);
+                            HHCompatBlocks.SLOE_BERRY_WINE.ifPresent(pOutput::accept);
+
+                            HHCompatBlocks.STARFRUIT_WINE_CRATE_ITEM.ifPresent(pOutput::accept);
+                            HHCompatBlocks.QUINCE_WINE_CRATE_ITEM.ifPresent(pOutput::accept);
+                            HHCompatBlocks.SLOE_BERRY_WINE_CRATE_ITEM.ifPresent(pOutput::accept);
+                        }
+
+                        pOutput.accept(ModItems.STARFRUIT_SALAD.get());
+                        pOutput.accept(ModItems.STARFRUIT_SALMON.get());
+
                         pOutput.accept(new ItemStack(ModBlocks.STARFRUIT_CHEESECAKE.get().asItem()));
                         pOutput.accept(ModItems.STARFRUIT_CHEESECAKE_SLICE.get());
                         pOutput.accept(new ItemStack(ModBlocks.SWEET_QUINCE_TART.get().asItem()));
@@ -89,8 +121,19 @@ public class ModCreativeModTabs {
                         pOutput.accept(new ItemStack(ModBlocks.SLOE_TREACLE_TART.get().asItem()));
                         pOutput.accept(ModItems.SLOE_TREACLE_TART_SLICE.get());
 
-                        pOutput.accept(ModItems.STARFRUIT_SALAD.get());
-                        pOutput.accept(ModItems.STARFRUIT_SALMON.get());
+                        if (ModList.get().isLoaded("neapolitan")) {
+                            NTCompatBlocks.STARFRUIT_ICE_CREAM.ifPresent(pOutput::accept);
+                            NTCompatBlocks.QUINCE_ICE_CREAM.ifPresent(pOutput::accept);
+                            NTCompatBlocks.SLOE_BERRY_ICE_CREAM.ifPresent(pOutput::accept);
+
+                            NTCompatBlocks.STARFRUIT_MILKSHAKE.ifPresent(pOutput::accept);
+                            NTCompatBlocks.QUINCE_MILKSHAKE.ifPresent(pOutput::accept);
+                            NTCompatBlocks.SLOE_BERRY_MILKSHAKE.ifPresent(pOutput::accept);
+
+                            NTCompatBlocks.STARFRUIT_ICE_CREAM_BLOCK_ITEM.ifPresent(pOutput::accept);
+                            NTCompatBlocks.QUINCE_ICE_CREAM_BLOCK_ITEM.ifPresent(pOutput::accept);
+                            NTCompatBlocks.SLOE_BERRY_ICE_CREAM_BLOCK_ITEM.ifPresent(pOutput::accept);
+                        }
 
                     })
                     .build());

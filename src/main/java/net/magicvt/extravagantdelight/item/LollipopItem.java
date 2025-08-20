@@ -98,4 +98,8 @@ public class LollipopItem extends Item {
         }
         return super.onLeftClickEntity(stack, player, entity);
     }
+
+    public boolean hasPotionEffectTooltip(ItemStack stack) {
+        return true;
+    }
 }
