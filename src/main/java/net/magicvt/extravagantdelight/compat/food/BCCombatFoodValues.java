@@ -13,25 +13,25 @@ public class BCCombatFoodValues extends FoodValues {
     public static final FoodProperties STARFRUIT_PALOMA = (new FoodProperties.Builder())
             .effect(new MobEffectInstance(BnCEffects.TIPSY.get(), 2400, 0), 1.0F)
             .effect(new MobEffectInstance(BnCEffects.INTOXICATION.get(), 1800, 0, false, false), 1.0F)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1800, 0), 1.0F)
             .alwaysEat()
             .build();
     public static final FoodProperties PINK_GIN = (new FoodProperties.Builder())
             .effect(new MobEffectInstance(BnCEffects.TIPSY.get(), 2400, 0), 1.0F)
             .effect(new MobEffectInstance(BnCEffects.INTOXICATION.get(), 1800, 0, false, false), 1.0F)
-            .effect(new MobEffectInstance(ModEffects.COMFORT.get(), 600, 0), 1.0F)
+            .effect(new MobEffectInstance(ModEffects.COMFORT.get(), 1800, 0), 1.0F)
             .alwaysEat()
             .build();
     public static final FoodProperties SLOE_GIN = (new FoodProperties.Builder())
             .effect(new MobEffectInstance(BnCEffects.TIPSY.get(), 2400, 0), 1.0F)
             .effect(new MobEffectInstance(BnCEffects.INTOXICATION.get(), 1800, 0, false, false), 1.0F)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1800, 0), 1.0F)
             .alwaysEat()
             .build();
     public static final FoodProperties SLOE_VODKA = (new FoodProperties.Builder())
             .effect(new MobEffectInstance(BnCEffects.TIPSY.get(), 2400, 0), 1.0F)
             .effect(new MobEffectInstance(BnCEffects.INTOXICATION.get(), 1800, 0, false, false), 1.0F)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1200, 0), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1800, 0), 1.0F)
             .alwaysEat()
             .build();
 
