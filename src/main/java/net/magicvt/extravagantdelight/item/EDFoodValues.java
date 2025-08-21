@@ -131,7 +131,7 @@ public class EDFoodValues extends FoodValues {
     public static final FoodProperties GLOW_BERRY_YOGURT = (new FoodProperties.Builder())
             .nutrition(0).saturationMod(0f)
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
-            .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 600, 0), 1.0F)
             .build();
     public static final FoodProperties STARFRUIT_YOGURT = (new FoodProperties.Builder())
             .nutrition(0).saturationMod(0f)
