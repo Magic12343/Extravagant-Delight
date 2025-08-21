@@ -47,18 +47,18 @@ public class NTCompatBlocks {
 
     //Items
     public static final RegistryObject<Item> STARFRUIT_ICE_CREAM = registerItem("starfruit_ice_cream",
-            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.STARFRUIT_ICE_CREAM)));
+            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.STARFRUIT_ICE_CREAM).stacksTo(1)));
     public static final RegistryObject<Item> QUINCE_ICE_CREAM = registerItem("quince_ice_cream",
-            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.QUINCE_ICE_CREAM)));
+            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.QUINCE_ICE_CREAM).stacksTo(1)));
     public static final RegistryObject<Item> SLOE_BERRY_ICE_CREAM = registerItem("sloe_berry_ice_cream",
-            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.SLOE_BERRY_ICE_CREAM)));
+            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.SLOE_BERRY_ICE_CREAM).stacksTo(1)));
 
     public static final RegistryObject<Item> STARFRUIT_MILKSHAKE = registerItem("starfruit_milkshake",
-            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.STARFRUIT_MILKSHAKE)));
+            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.STARFRUIT_MILKSHAKE).stacksTo(16)));
     public static final RegistryObject<Item> QUINCE_MILKSHAKE = registerItem("quince_milkshake",
-            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.QUINCE_MILKSHAKE)));
+            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.QUINCE_MILKSHAKE).stacksTo(16)));
     public static final RegistryObject<Item> SLOE_BERRY_MILKSHAKE = registerItem("sloe_berry_milkshake",
-            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.SLOE_BERRY_MILKSHAKE)));
+            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.SLOE_BERRY_MILKSHAKE).stacksTo(16)));
 
     public static final RegistryObject<Item> STRAWBERRY_YOGURT = ITEMS.register("strawberry_yogurt",
             () -> new DrinkableItem(drinkItem().food(NTCombatFoodValues.STRAWBERRY_YOGURT), true, false));
