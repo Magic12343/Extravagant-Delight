@@ -27,7 +27,10 @@ displayName="Extravagant Delight" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png"
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="""
+
+Translations: es_es - kukiuvu
+"""
 # A text field displayed in the mod UI
 authors="MagicVT" #optional
 

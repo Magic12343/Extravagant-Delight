@@ -1,0 +1,125 @@
+{
+
+  "block.extravagantdelight.quince_log": "Tronco de membrillo",
+  "block.extravagantdelight.quince_wood": "Leño de membrillo",
+  "block.extravagantdelight.stripped_quince_log": "Tronco de membrillo sin corteza",
+  "block.extravagantdelight.stripped_quince_wood": "Leño de membrillo sin corteza",
+  "block.extravagantdelight.quince_planks": "Tablones de membrillo",
+  "block.extravagantdelight.quince_stairs": "Escaleras de membrillo",
+  "block.extravagantdelight.quince_slab": "Losa de membrillo",
+  "block.extravagantdelight.quince_fence": "Valla de membrillo",
+  "block.extravagantdelight.quince_fence_gate": "Puerta de valla de membrillo",
+  "block.extravagantdelight.quince_door": "Puerta de membrillo",
+  "block.extravagantdelight.quince_trapdoor": "Trampilla de membrillo",
+  "block.extravagantdelight.quince_pressure_plate": "Placa de presión de membrillo",
+  "block.extravagantdelight.quince_button": "Botón de membrillo",
+  "block.extravagantdelight.quince_cabinet": "Gabinete de membrillo",
+  "block.extravagantdelight.quince_half_cabinet": "Medio gabinete de membrillo",
+  "block.extravagantdelight.quince_leaves": "Hojas de membrillo",
+  "block.extravagantdelight.flourishing_quince_leaves": "Hojas de membrillo fluorecentes",
+  "block.extravagantdelight.fruit_quince_leaves": "Hojas de membrillo frutales",
+
+  "block.extravagantdelight.starfruit_crate": "Caja de carambolas",
+  "block.extravagantdelight.sloe_berries_crate": "Caja de endrinas",
+  "block.extravagantdelight.quince_crate": "Caja de membrillo",
+
+  "block.extravagantdelight.starfruit_wine_crate": "Caja de vino de carambola",
+  "block.extravagantdelight.sloe_berry_wine_crate": "Caja de vino de endrinas",
+  "block.extravagantdelight.quince_wine_crate": "Caja de vino de membrillo",
+
+  "block.extravagantdelight.wild_starfruit": "Carambola silvestre",
+  "block.extravagantdelight.wild_sloe_berries": "Endrinas silvestres",
+  "block.extravagantdelight.wild_quince": "Árbol de membrillo silvestre",
+
+  "item.extravagantdelight.starfruit": "Carambola",
+  "item.extravagantdelight.sloe_berries": "Endrinas",
+  "item.extravagantdelight.quince": "Membrillo",
+
+  "item.extravagantdelight.starfruit_seeds": "Semillas de carambola",
+  "block.extravagantdelight.sloe_berries": "Pepitas de endrinas",
+  "block.extravagantdelight.quince_seedling": "Plantones de membrillo",
+
+  "item.extravagantdelight.starfruit_juice": "Zumo de carambola",
+  "item.extravagantdelight.sloe_berry_juice": "Zumo de endrinas",
+  "item.extravagantdelight.quince_juice": "Zumo de membrillo",
+
+  "item.extravagantdelight.starfruit_slice": "Rebanada de carambola",
+  "item.extravagantdelight.boiled_quince": "Membrillo hervido",
+  "item.extravagantdelight.boiled_quince_peel": "Cáscara de membrillo hervida",
+  "item.extravagantdelight.boiled_quince_pulp": "Pulpa de membrillo hervida",
+  "item.extravagantdelight.boiled_quince_seeds": "Semillas de membrillo hervidas",
+
+  "block.extravagantdelight.starfruit_cheesecake": "Tarta de queso de carambola",
+  "block.extravagantdelight.sloe_treacle_tart": "Tarta de melaza de endrinas",
+  "block.extravagantdelight.sweet_quince_tart": "Tarta de membrillo",
+
+  "item.extravagantdelight.starfruit_cheesecake_slice": "Rebanada de tarta de queso de carambola",
+  "item.extravagantdelight.sloe_treacle_tart_slice": "Rebanada de tarta de melaza de endrinas",
+  "item.extravagantdelight.sweet_quince_tart_slice": "Rebanada de tarta de membrillo",
+
+  "item.extravagantdelight.starfruit_popsicle": "Polo de carambola",
+  "item.extravagantdelight.quince_candy": "Dulce de membrillo",
+
+  "item.extravagantdelight.starfruit_jam": "Mermelada de carambola",
+  "item.extravagantdelight.sloe_berry_jelly": "Mermelada de endrinas",
+  "item.extravagantdelight.quince_jelly": "Mermelada de membrillo",
+  "item.extravagantdelight.strawberry_jam": "Mermelada de fresa",
+
+  "item.extravagantdelight.starfruit_muffin": "Magdalena de carambola",
+  "item.extravagantdelight.sloe_berry_cupcake": "Magdalena de endrinas",
+
+  "item.extravagantdelight.sloe_berry_cookie": "Galleta de endrinas",
+  "item.extravagantdelight.quince_cookie": "Galleta de membrillo",
+
+  "item.extravagantdelight.starfruit_lollipop": "Piruleta de carambola",
+  "item.extravagantdelight.sloe_berry_lollipop": "Piruleta de endrinas",
+  "item.extravagantdelight.quince_lollipop": "Piruleta de membrillo",
+  "item.extravagantdelight.sweet_berry_lollipop": "Piruleta de bayas dulces",
+  "item.extravagantdelight.glow_berry_lollipop": "Piruleta de bayas luminosas",
+  "item.extravagantdelight.strawberry_lollipop": "Piruleta de fresa",
+  "item.extravagantdelight.mint_lollipop": "Piruleta de menta",
+
+  "item.extravagantdelight.apple_yogurt": "Yogurt de manzana",
+  "item.extravagantdelight.sweet_berry_yogurt": "Yogurt de bayas dulces",
+  "item.extravagantdelight.glow_berry_yogurt": "Yogurt de bayas luminosas",
+  "item.extravagantdelight.starfruit_yogurt": "Yogurt de carambola",
+  "item.extravagantdelight.sloe_berry_yogurt": "Yogurt de endrinas",
+  "item.extravagantdelight.strawberry_yogurt": "Yogurt de fresa",
+  "item.extravagantdelight.passionfruit_yogurt": "Yogurt de maracuyá",
+  "item.extravagantdelight.blueberry_yogurt": "Yogurt de arándanos",
+  "item.extravagantdelight.raspberry_yogurt": "Yogurt frambuesas",
+  "item.extravagantdelight.salmonberry_yogurt": "Yogurt de zarzamora",
+
+  "item.extravagantdelight.starfruit_salad": "Ensalada de carambola",
+  "item.extravagantdelight.starfruit_salmon": "Salmón de carambola",
+
+  "item.extravagantdelight.starfruit_paloma": "Starfruit Paloma",
+  "fluid_type.extravagantdelight.starfruit_paloma": "Starfruit Paloma",
+  "item.extravagantdelight.sloe_gin": "Ginebra de endrinas",
+  "fluid_type.extravagantdelight.sloe_gin": "Ginebra de endrinas",
+  "item.extravagantdelight.sloe_vodka": "Vodka de endrinas",
+  "fluid_type.extravagantdelight.sloe_vodka": "Vodka de endrinas",
+  "item.extravagantdelight.pink_gin": "Ginebra rosa",
+  "fluid_type.extravagantdelight.pink_gin": "Ginebra rosa",
+
+  "item.extravagantdelight.starfruit_wine": "Vino de carambola",
+  "fluid_type.extravagantdelight.starfruit_wine": "Vino de carambola",
+  "item.extravagantdelight.sloe_berry_wine": "Vino de endrinas",
+  "fluid_type.extravagantdelight.sloe_berry_wine": "Vino de endrinas",
+  "item.extravagantdelight.quince_wine": "Vino de membrillo",
+  "fluid_type.extravagantdelight.quince_wine": "Vino de membrillo",
+
+  "item.extravagantdelight.starfruit_ice_cream": "Helado de carambola",
+  "item.extravagantdelight.sloe_berry_ice_cream": "Helado de endrinas",
+  "item.extravagantdelight.quince_ice_cream": "Helado de membrillo",
+
+  "item.extravagantdelight.starfruit_milkshake": "Batido de carambola",
+  "item.extravagantdelight.sloe_berry_milkshake": "Batido de endrinas",
+  "item.extravagantdelight.quince_milkshake": "Batido de membrillo",
+
+  "block.extravagantdelight.starfruit_ice_cream_block": "Bloque de helado de carambola",
+  "block.extravagantdelight.sloe_berry_ice_cream_block": "Bloque de helado de endrinas",
+  "block.extravagantdelight.quince_ice_cream_block": "Bloque de helado de membrillo",
+
+  "creativetab.extravagantdelight_tab": "Extravagant Delight"
+}
