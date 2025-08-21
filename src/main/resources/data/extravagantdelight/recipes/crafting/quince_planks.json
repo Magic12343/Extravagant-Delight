@@ -4,7 +4,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "extravagantdelight:quince_logs"
+      "item": "extravagantdelight:quince_log"
     }
   ],
   "result": {

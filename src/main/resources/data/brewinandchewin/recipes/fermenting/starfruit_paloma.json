@@ -1,5 +1,11 @@
 {
   "type": "brewinandchewin:fermenting",
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
   "basefluid": {
     "count": 1000,
     "fluid": "minecraft:water"

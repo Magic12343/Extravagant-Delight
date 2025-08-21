@@ -2,7 +2,6 @@ package net.magicvt.extravagantdelight.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.item.Item;
 import vectorwing.farmersdelight.common.FoodValues;
 import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.registry.ModEffects;
@@ -95,18 +94,18 @@ public class EDFoodValues extends FoodValues {
 
     public static final FoodProperties STARFRUIT_LOLLIPOP = (new FoodProperties.Builder())
             .nutrition(5).saturationMod(0.4f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0F)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 0), 1.0F)
             .build();
     public static final FoodProperties QUINCE_LOLLIPOP = (new FoodProperties.Builder())
             .nutrition(5).saturationMod(0.4f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0F)
-            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), 200, 0), 1.0F)
             .build();
     public static final FoodProperties SLOE_BERRY_LOLLIPOP = (new FoodProperties.Builder())
             .nutrition(5).saturationMod(0.4f)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0F)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 1), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200, 0), 1.0F)
             .build();
 
     public static final FoodProperties VEGETABLE_OIL = (new FoodProperties.Builder())
@@ -122,7 +121,7 @@ public class EDFoodValues extends FoodValues {
     public static final FoodProperties APPLE_YOGURT = (new FoodProperties.Builder())
             .nutrition(0).saturationMod(0f)
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
-            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING, 200, 0), 1.0F)
             .build();
     public static final FoodProperties SWEET_BERRY_YOGURT = (new FoodProperties.Builder())
             .nutrition(0).saturationMod(0f)
@@ -143,6 +142,35 @@ public class EDFoodValues extends FoodValues {
             .nutrition(0).saturationMod(0f)
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties BLUEBERRY_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties RASPBERRY_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties SALMONBERRY_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.WATER_BREATHING, 600, 0), 1.0F)
+            .build();
+    public static final FoodProperties SWEET_BERRY_LOLLIPOP = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.4f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400, 1), 1.0F)
+            .build();
+    public static final FoodProperties GLOW_BERRY_LOLLIPOP = (new FoodProperties.Builder())
+            .nutrition(5).saturationMod(0.4f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 0), 1.0F)
+            .build();
+    public static final FoodProperties PASSIONFRUIT_YOGURT = (new FoodProperties.Builder())
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.LUCK, 600, 0), 1.0F)
             .build();
 
 

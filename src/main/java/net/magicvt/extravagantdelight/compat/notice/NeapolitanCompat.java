@@ -1,5 +1,6 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.notice;
 
+import net.magicvt.extravagantdelight.compat.register.NTCompatBlocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 public class NeapolitanCompat

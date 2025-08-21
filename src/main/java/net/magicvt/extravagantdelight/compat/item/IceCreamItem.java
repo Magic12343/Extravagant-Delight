@@ -1,4 +1,4 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.item;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;

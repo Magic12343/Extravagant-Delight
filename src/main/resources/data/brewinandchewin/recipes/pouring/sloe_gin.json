@@ -1,5 +1,11 @@
 {
   "type": "brewinandchewin:keg_pouring",
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
   "amount": 250,
   "filling": true,
   "container": {

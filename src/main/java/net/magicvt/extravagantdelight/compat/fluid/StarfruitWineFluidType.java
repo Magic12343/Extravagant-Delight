@@ -1,6 +1,5 @@
 package net.magicvt.extravagantdelight.compat.fluid;
 
-import alabaster.hearthandharvest.HearthAndHarvest;
 import net.magicvt.extravagantdelight.ExtravagantDelight;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;

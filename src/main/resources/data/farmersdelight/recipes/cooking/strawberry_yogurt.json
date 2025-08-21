@@ -1,5 +1,11 @@
 {
   "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "neapolitan"
+    }
+  ],
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [

@@ -1,9 +1,6 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.fluid;
 
 import net.magicvt.extravagantdelight.ExtravagantDelight;
-import net.magicvt.extravagantdelight.compat.fluid.StarfruitWineFluidType;
-import net.magicvt.extravagantdelight.compat.fluid.QuinceWineFluidType;
-import net.magicvt.extravagantdelight.compat.fluid.SloeBerryWineFluidType;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.fluids.ForgeFlowingFluid;

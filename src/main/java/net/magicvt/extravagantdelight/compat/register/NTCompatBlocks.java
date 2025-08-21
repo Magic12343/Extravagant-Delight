@@ -1,31 +1,29 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.register;
 
 import com.teamabnormals.neapolitan.common.item.IceCreamItem;
-import com.teamabnormals.neapolitan.common.item.MilkshakeItem;
-import com.teamabnormals.neapolitan.core.Neapolitan;
 import com.teamabnormals.neapolitan.core.registry.NeapolitanBlocks;
 import net.magicvt.extravagantdelight.ExtravagantDelight;
+import net.magicvt.extravagantdelight.compat.item.ShakeItem;
 import net.magicvt.extravagantdelight.item.EDFoodValues;
+import net.magicvt.extravagantdelight.item.LollipopItem;
+import net.magicvt.extravagantdelight.compat.food.NTCombatFoodValues;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
-import javax.annotation.Nullable;
 import java.util.function.Supplier;
 
-import static net.minecraft.world.item.Items.registerItem;
+import static net.magicvt.extravagantdelight.item.ModItems.drinkItem;
+import static net.magicvt.extravagantdelight.item.ModItems.registerWithTab;
 
 public class NTCompatBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -61,6 +59,29 @@ public class NTCompatBlocks {
             () -> new ShakeItem(new Item.Properties().food(EDFoodValues.QUINCE_MILKSHAKE)));
     public static final RegistryObject<Item> SLOE_BERRY_MILKSHAKE = registerItem("sloe_berry_milkshake",
             () -> new ShakeItem(new Item.Properties().food(EDFoodValues.SLOE_BERRY_MILKSHAKE)));
+
+    public static final RegistryObject<Item> STRAWBERRY_YOGURT = ITEMS.register("strawberry_yogurt",
+            () -> new DrinkableItem(drinkItem().food(NTCombatFoodValues.STRAWBERRY_YOGURT), true, false));
+
+    public static final RegistryObject<Item> STRAWBERRY_LOLLIPOP =
+            registerWithTab("strawberry_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            NTCombatFoodValues.STRAWBERRY_LOLLIPOP,
+                            10
+                    )
+            );
+    public static final RegistryObject<Item> MINT_LOLLIPOP =
+            registerWithTab("mint_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            NTCombatFoodValues.MINT_LOLLIPOP,
+                            10
+                    )
+            );
+
+    public static final RegistryObject<Item> STRAWBERRY_JAM = registerWithTab("strawberry_jam",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.STARFRUIT_JAM), true, false));
 
     //BlockItems
     public static final RegistryObject<Item> STARFRUIT_ICE_CREAM_BLOCK_ITEM = ITEMS.register("starfruit_ice_cream_block",

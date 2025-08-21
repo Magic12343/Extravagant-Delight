@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "extravagantdelight:quince_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "extravagantdelight:quince_planks"
+  }
+}

@@ -1,9 +1,11 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.register;
 
 import alabaster.hearthandharvest.common.block.HalfCabinetBlock;
 import alabaster.hearthandharvest.common.item.WineBottleItem;
 import net.magicvt.extravagantdelight.ExtravagantDelight;
+import net.magicvt.extravagantdelight.compat.fluid.HHCompatFluids;
 import net.magicvt.extravagantdelight.item.EDFoodValues;
+import net.magicvt.extravagantdelight.item.LollipopItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
@@ -17,8 +19,12 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 import java.util.function.Supplier;
+
+import static net.magicvt.extravagantdelight.item.ModItems.drinkItem;
+import static net.magicvt.extravagantdelight.item.ModItems.registerWithTab;
 
 public class HHCompatBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -51,6 +57,28 @@ public class HHCompatBlocks {
             () -> new WineBottleItem(() -> HHCompatFluids.SLOE_BERRY_WINE.get(),
                     new Item.Properties().food(EDFoodValues.SLOE_BERRY_WINE).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE),
                     true, false));
+
+    public static final RegistryObject<Item> BLUEBERRY_YOGURT = ITEMS.register("blueberry_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.BLUEBERRY_YOGURT), true, false));
+    public static final RegistryObject<Item> RASPBERRY_YOGURT = ITEMS.register("raspberry_yogurt",
+            () -> new DrinkableItem(drinkItem().food(EDFoodValues.RASPBERRY_YOGURT), true, false));
+
+    public static final RegistryObject<Item> SWEET_BERRY_LOLLIPOP =
+            registerWithTab("sweet_berry_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            EDFoodValues.SWEET_BERRY_LOLLIPOP,
+                            10
+                    )
+            );
+    public static final RegistryObject<Item> GLOW_BERRY_LOLLIPOP =
+            registerWithTab("glow_berry_lollipop",
+                    () -> new LollipopItem(
+                            new Item.Properties().stacksTo(1),
+                            EDFoodValues.GLOW_BERRY_LOLLIPOP,
+                            10
+                    )
+            );
 
     //BlockItems
     public static final RegistryObject<Item> QUINCE_HALF_CABINET_ITEM = ITEMS.register("quince_half_cabinet",

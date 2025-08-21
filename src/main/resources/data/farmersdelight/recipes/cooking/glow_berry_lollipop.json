@@ -1,0 +1,38 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hearthandharvest"
+    }
+  ],
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "hearthandharvest:glow_berry_jam"
+    },
+    {
+      "item": "hearthandharvest:glow_berry_jam"
+    },
+    {
+      "item": "hearthandharvest:glow_berry_jam"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "extravagantdelight:glow_berry_lollipop"
+  }
+}

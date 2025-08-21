@@ -1,16 +1,19 @@
 {
   "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:stick"
+  },
   "cookingtime": 400,
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "minecraft:stick"
+      "item": "extravagantdelight:quince_jelly"
     },
     {
       "item": "extravagantdelight:quince_jelly"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "extravagantdelight:quince_jelly"
     },
     {
       "item": "minecraft:sugar"

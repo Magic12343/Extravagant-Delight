@@ -1,10 +1,6 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.fluid;
 
 import net.magicvt.extravagantdelight.ExtravagantDelight;
-import net.magicvt.extravagantdelight.compat.fluid.PinkGinFluidType;
-import net.magicvt.extravagantdelight.compat.fluid.SloeGinFluidType;
-import net.magicvt.extravagantdelight.compat.fluid.SloeVodkaFluidType;
-import net.magicvt.extravagantdelight.compat.fluid.StarfruitPalomaFluidType;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.fluids.FluidType;

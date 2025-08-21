@@ -2,10 +2,10 @@ package net.magicvt.extravagantdelight;
 
 import com.mojang.logging.LogUtils;
 import net.magicvt.extravagantdelight.block.ModBlocks;
-import net.magicvt.extravagantdelight.compat.BCCompatFluids;
+import net.magicvt.extravagantdelight.compat.fluid.BCCompatFluids;
 import net.magicvt.extravagantdelight.compat.CompatHandler;
-import net.magicvt.extravagantdelight.compat.HHCompatFluids;
-import net.magicvt.extravagantdelight.item.ModCreativeModTabs;
+import net.magicvt.extravagantdelight.compat.fluid.HHCompatFluids;
+import net.magicvt.extravagantdelight.item.ModCreativeTab;
 import net.magicvt.extravagantdelight.item.ModItems;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -30,7 +30,7 @@ public class ExtravagantDelight {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
-        ModCreativeModTabs.register(modEventBus);
+        ModCreativeTab.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         HHCompatFluids.FLUID_TYPES.register(modEventBus);

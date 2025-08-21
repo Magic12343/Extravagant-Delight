@@ -1,4 +1,4 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.item;
 
 import com.teamabnormals.neapolitan.common.item.DrinkItem;
 import net.minecraft.sounds.SoundEvent;

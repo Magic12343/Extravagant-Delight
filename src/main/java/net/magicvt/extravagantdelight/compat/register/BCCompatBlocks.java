@@ -1,29 +1,18 @@
-package net.magicvt.extravagantdelight.compat;
+package net.magicvt.extravagantdelight.compat.register;
 
-import alabaster.hearthandharvest.common.block.HalfCabinetBlock;
-import com.teamabnormals.neapolitan.common.item.IceCreamItem;
-import com.teamabnormals.neapolitan.core.registry.NeapolitanBlocks;
 import net.magicvt.extravagantdelight.ExtravagantDelight;
-import net.magicvt.extravagantdelight.item.EDFoodValues;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
+import net.magicvt.extravagantdelight.compat.fluid.BCCompatFluids;
+import net.magicvt.extravagantdelight.compat.food.BCCombatFoodValues;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import umpaz.brewinandchewin.common.item.BoozeItem;
-import umpaz.brewinandchewin.common.registry.BnCItems;
-import vectorwing.farmersdelight.common.registry.ModEffects;
 
 import java.util.function.Supplier;
-
-import static net.magicvt.extravagantdelight.item.ModItems.registerWithTab;
 
 public class BCCompatBlocks {
     public static final DeferredRegister<Block> BLOCKS =

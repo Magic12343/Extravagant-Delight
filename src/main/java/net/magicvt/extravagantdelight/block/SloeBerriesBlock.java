@@ -26,6 +26,8 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 
 public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
@@ -86,6 +88,16 @@ public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
         if (mature) {
             int berriesCount = 1 + world.getRandom().nextInt(2);
             popResource(world, pos, new ItemStack(ModItems.SLOE_BERRIES.get(), berriesCount));
+
+            world.playSound(
+                    null,
+                    pos,
+                    SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES,
+                    SoundSource.BLOCKS,
+                    1.0F,
+                    0.8F + world.getRandom().nextFloat() * 0.4F
+            );
+
             world.setBlock(pos, state.setValue(AGE, 1), 2);
             return InteractionResult.sidedSuccess(world.isClientSide);
         }
@@ -99,6 +111,14 @@ public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
         if (!world.isClientSide && age == MAX_AGE) {
             int berriesCount = 1 + world.getRandom().nextInt(2);
             popResource(world, pos, new ItemStack(ModItems.SLOE_BERRIES.get(), berriesCount));
+            world.playSound(
+                    null,
+                    pos,
+                    SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES,
+                    SoundSource.BLOCKS,
+                    1.0F,
+                    0.8F + world.getRandom().nextFloat() * 0.4F
+            );
         }
         super.playerWillDestroy(world, pos, state, player);
     }
