@@ -15,9 +15,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.BushBlock;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -32,7 +32,6 @@ import net.minecraft.sounds.SoundSource;
 public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_3;
     private static final int MAX_AGE = 3;
-
     private static final VoxelShape SHAPE = Block.box(2.0D, 0.0D, 2.0D, 14.0D, 13.0D, 14.0D);
 
     public SloeBerriesBlock(BlockBehaviour.Properties properties) {
@@ -74,10 +73,8 @@ public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
 
     @Override
     public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState state) {
-        int age = state.getValue(AGE);
-        if (age < MAX_AGE) {
-            world.setBlock(pos, state.setValue(AGE, age + 1), 2);
-        }
+        world.setBlock(pos, state.setValue(AGE, MAX_AGE), 3);
+        world.levelEvent(2005, pos, 0);
     }
 
     @Override
@@ -88,16 +85,7 @@ public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
         if (mature) {
             int berriesCount = 1 + world.getRandom().nextInt(2);
             popResource(world, pos, new ItemStack(ModItems.SLOE_BERRIES.get(), berriesCount));
-
-            world.playSound(
-                    null,
-                    pos,
-                    SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES,
-                    SoundSource.BLOCKS,
-                    1.0F,
-                    0.8F + world.getRandom().nextFloat() * 0.4F
-            );
-
+            world.playSound(null, pos, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 0.8F + world.getRandom().nextFloat() * 0.4F);
             world.setBlock(pos, state.setValue(AGE, 1), 2);
             return InteractionResult.sidedSuccess(world.isClientSide);
         }
@@ -111,14 +99,7 @@ public class SloeBerriesBlock extends BushBlock implements BonemealableBlock {
         if (!world.isClientSide && age == MAX_AGE) {
             int berriesCount = 1 + world.getRandom().nextInt(2);
             popResource(world, pos, new ItemStack(ModItems.SLOE_BERRIES.get(), berriesCount));
-            world.playSound(
-                    null,
-                    pos,
-                    SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES,
-                    SoundSource.BLOCKS,
-                    1.0F,
-                    0.8F + world.getRandom().nextFloat() * 0.4F
-            );
+            world.playSound(null, pos, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 0.8F + world.getRandom().nextFloat() * 0.4F);
         }
         super.playerWillDestroy(world, pos, state, player);
     }

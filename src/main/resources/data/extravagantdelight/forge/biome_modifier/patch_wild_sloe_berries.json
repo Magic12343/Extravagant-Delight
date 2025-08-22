@@ -1,9 +1,9 @@
 {
   "type": "farmersdelight:add_features_by_filter",
-  "allowed_biomes": "#minecraft:is_overworld",
+  "allowed_biomes": "#forge:is_spooky",
   "denied_biomes": ["minecraft:lush_caves", "minecraft:mushroom_fields"],
-  "min_temperature": 2.0,
-  "max_temperature": 2.1,
-  "features": "extravagantdelight:patch_quince",
+  "min_temperature": 0.4,
+  "max_temperature": 0.9,
+  "features": "extravagantdelight:patch_wild_sloe_berries",
   "step": "vegetal_decoration"
 }

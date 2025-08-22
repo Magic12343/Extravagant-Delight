@@ -28,7 +28,7 @@ public class QuinceSeedlingBlock extends Block implements BonemealableBlock {
     @Override
     public boolean canSurvive(BlockState state, LevelReader world, BlockPos pos) {
         BlockState blockBelow = world.getBlockState(pos.below());
-        return blockBelow.is(BlockTags.DIRT);
+        return blockBelow.is(BlockTags.DIRT) || blockBelow.is(Blocks.GRASS_BLOCK) || blockBelow.is(Blocks.COARSE_DIRT);
     }
 
     @Override
