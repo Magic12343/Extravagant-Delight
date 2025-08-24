@@ -30,6 +30,10 @@ logoFile="logo.png"
 credits="""
 
 Translations: es_es - kukiuvu
+Textures based on:
+Brewin' And Chewin' - lumpazl, Farcr, Probleyes and RaymondBlaze
+Hearth and Harvest - AlabasterLeking
+Neapolitan - TeamAbnormals
 """
 # A text field displayed in the mod UI
 authors="MagicVT" #optional
