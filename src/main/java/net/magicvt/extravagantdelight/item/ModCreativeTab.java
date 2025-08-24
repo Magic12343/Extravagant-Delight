@@ -119,15 +119,9 @@ public class ModCreativeTab {
                         if (ModList.get().isLoaded("neapolitan")) {
                             NTCompatBlocks.STRAWBERRY_YOGURT.ifPresent(pOutput::accept);
                         }
-                        if (ModList.get().isLoaded("atmospheric")) {
-                            ATCompatBlocks.PASSIONFRUIT_YOGURT.ifPresent(pOutput::accept);
-                        }
                         if (ModList.get().isLoaded("hearthandharvest")) {
                             HHCompatBlocks.BLUEBERRY_YOGURT.ifPresent(pOutput::accept);
                             HHCompatBlocks.RASPBERRY_YOGURT.ifPresent(pOutput::accept);
-                        }
-                        if (ModList.get().isLoaded("delightful")) {
-                            DFCompatBlocks.SALMONBERRY_YOGURT.ifPresent(pOutput::accept);
                         }
 
                         pOutput.accept(ModItems.STARFRUIT_SALAD.get());

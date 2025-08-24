@@ -16,11 +16,5 @@ public class CompatHandler {
         if (ModList.get().isLoaded("brewinandchewin")) {
             BrewinAndChewinCompat.init(modEventBus);
         }
-        if (ModList.get().isLoaded("atmospheric")) {
-            AtmosphericCompat.init(modEventBus);
-        }
-        if (ModList.get().isLoaded("delightful")) {
-            DelightfulCompat.init(modEventBus);
-        }
     }
 }
