@@ -16,7 +16,7 @@ public class SloeBerriesItem extends Item {
     public SloeBerriesItem(Properties properties) {
         super(properties.food(
                 new FoodProperties.Builder()
-                        .nutrition(5)
+                        .nutrition(2)
                         .saturationMod(0.1F)
                         .build()
         ));

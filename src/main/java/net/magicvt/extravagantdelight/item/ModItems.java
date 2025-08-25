@@ -60,7 +60,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
                     .nutrition(1)
                     .saturationMod(0.3f)
-                    .effect(() -> new net.minecraft.world.effect.MobEffectInstance(MobEffects.CONFUSION, 100, 0), 1.0f)
+                    .effect(() -> new net.minecraft.world.effect.MobEffectInstance(MobEffects.CONFUSION, 800, 0), 1.0f)
                     .build())));
 
     public static final RegistryObject<Item> SLOE_BERRIES = ITEMS.register("sloe_berries", () ->

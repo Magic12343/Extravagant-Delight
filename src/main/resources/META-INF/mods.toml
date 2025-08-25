@@ -49,7 +49,10 @@ authors="MagicVT" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''this is a unfinished description, ignore it.'''
+description='''Dive in to Extravagant Delight, an cozy fun addon for Farmers Delight! Enjoy 3 new curious flavours,
+The Starfruit, The Quince and The Sloe Berry.
+This mod is compatible with Hearth and Harvest, Brewin and Chewin and Neapolitan!
+'''
 
 name = "Special Thanks: Kaupenjoe"
 role = "For some of the mod tutorials i used!"

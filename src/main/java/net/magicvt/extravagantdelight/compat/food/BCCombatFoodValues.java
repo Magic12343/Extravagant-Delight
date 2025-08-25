@@ -29,9 +29,9 @@ public class BCCombatFoodValues extends FoodValues {
             .alwaysEat()
             .build();
     public static final FoodProperties SLOE_VODKA = (new FoodProperties.Builder())
-            .effect(new MobEffectInstance(BnCEffects.TIPSY.get(), 2400, 0), 1.0F)
-            .effect(new MobEffectInstance(BnCEffects.INTOXICATION.get(), 1800, 0, false, false), 1.0F)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1800, 0), 1.0F)
+            .effect(new MobEffectInstance(BnCEffects.TIPSY.get(), 1800, 0), 1.0F)
+            .effect(new MobEffectInstance(BnCEffects.INTOXICATION.get(), 2400, 0, false, false), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 2500, 0), 1.0F)
             .alwaysEat()
             .build();
 

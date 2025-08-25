@@ -17,13 +17,13 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 import java.util.function.Supplier;
 
-import static net.magicvt.extravagantdelight.item.ModItems.drinkItem;
-import static net.magicvt.extravagantdelight.item.ModItems.registerWithTab;
+import static net.magicvt.extravagantdelight.item.ModItems.*;
 
 public class NTCompatBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -46,19 +46,20 @@ public class NTCompatBlocks {
                     new Block(NeapolitanBlocks.NeapolitanBlockProperties.VANILLA_ICE_CREAM_BLOCK));
 
     //Items
-    public static final RegistryObject<Item> STARFRUIT_ICE_CREAM = registerItem("starfruit_ice_cream",
-            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.STARFRUIT_ICE_CREAM).stacksTo(1)));
-    public static final RegistryObject<Item> QUINCE_ICE_CREAM = registerItem("quince_ice_cream",
-            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.QUINCE_ICE_CREAM).stacksTo(1)));
-    public static final RegistryObject<Item> SLOE_BERRY_ICE_CREAM = registerItem("sloe_berry_ice_cream",
-            () -> new IceCreamItem((new Item.Properties()).food(EDFoodValues.SLOE_BERRY_ICE_CREAM).stacksTo(1)));
 
-    public static final RegistryObject<Item> STARFRUIT_MILKSHAKE = registerItem("starfruit_milkshake",
-            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.STARFRUIT_MILKSHAKE).stacksTo(16)));
-    public static final RegistryObject<Item> QUINCE_MILKSHAKE = registerItem("quince_milkshake",
-            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.QUINCE_MILKSHAKE).stacksTo(16)));
-    public static final RegistryObject<Item> SLOE_BERRY_MILKSHAKE = registerItem("sloe_berry_milkshake",
-            () -> new ShakeItem(new Item.Properties().food(EDFoodValues.SLOE_BERRY_MILKSHAKE).stacksTo(16)));
+    public static final RegistryObject<Item> STARFRUIT_ICE_CREAM = registerWithTab("starfruit_ice_cream",
+            () -> new IceCreamItem(foodItem(EDFoodValues.STARFRUIT_ICE_CREAM).stacksTo(1)));
+    public static final RegistryObject<Item> QUINCE_ICE_CREAM = registerWithTab("quince_ice_cream",
+            () -> new IceCreamItem(foodItem(EDFoodValues.QUINCE_ICE_CREAM).stacksTo(1)));
+    public static final RegistryObject<Item> SLOE_BERRY_ICE_CREAM = registerWithTab("sloe_berry_ice_cream",
+            () -> new IceCreamItem(foodItem(EDFoodValues.SLOE_BERRY_ICE_CREAM).stacksTo(1)));
+
+    public static final RegistryObject<Item> STARFRUIT_MILKSHAKE = registerWithTab("starfruit_milkshake",
+            () -> new ShakeItem(foodItem(EDFoodValues.STARFRUIT_MILKSHAKE).stacksTo(16)));
+    public static final RegistryObject<Item> QUINCE_MILKSHAKE = registerWithTab("quince_milkshake",
+            () -> new ShakeItem(foodItem(EDFoodValues.QUINCE_MILKSHAKE).stacksTo(16)));
+    public static final RegistryObject<Item> SLOE_BERRY_MILKSHAKE = registerWithTab("sloe_berry_milkshake",
+            () -> new ShakeItem(foodItem(EDFoodValues.SLOE_BERRY_MILKSHAKE).stacksTo(16)));
 
     public static final RegistryObject<Item> STRAWBERRY_YOGURT = ITEMS.register("strawberry_yogurt",
             () -> new DrinkableItem(drinkItem().food(NTCombatFoodValues.STRAWBERRY_YOGURT), true, false));
