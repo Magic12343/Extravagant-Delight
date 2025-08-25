@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "extravagantdelight:quince_log",
+    "extravagantdelight:stripped_quince_log",
+    "extravagantdelight:quince_wood",
+    "extravagantdelight:stripped_quince_wood",
+    "extravagantdelight:quince_planks",
+    "extravagantdelight:quince_stairs",
+    "extravagantdelight:quince_slab",
+    "extravagantdelight:quince_door",
+    "extravagantdelight:quince_trapdoor",
+    "extravagantdelight:quince_fence",
+    "extravagantdelight:quince_fence_gate",
+    "extravagantdelight:quince_cabinet",
+    "extravagantdelight:quince_button",
+    "extravagantdelight:starfruit_crate",
+    "extravagantdelight:quince_crate",
+    "extravagantdelight:sloe_berries_crate",
+    "extravagantdelight:quince_half_cabinet",
+    "extravagantdelight:starfruit_wine_crate",
+    "extravagantdelight:quince_wine_crate",
+    "extravagantdelight:sloe_berry_wine_crate",
+    "extravagantdelight:quince_pressure_plate"
+  ]
+}
