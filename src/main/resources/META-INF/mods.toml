@@ -52,6 +52,9 @@ authors="MagicVT" #optional
 description='''Dive in to Extravagant Delight, an cozy fun addon for Farmers Delight! Enjoy 3 new curious flavours,
 The Starfruit, The Quince and The Sloe Berry.
 This mod is compatible with Hearth and Harvest, Brewin and Chewin and Neapolitan!
+
+Changelog 1.0.1:
+-Axes now works again.
 '''
 
 name = "Special Thanks: Kaupenjoe"
